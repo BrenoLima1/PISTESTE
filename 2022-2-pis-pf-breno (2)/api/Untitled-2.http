@@ -1,0 +1,1 @@
+curl -i -H "Content-Type: multipart/form-data; boundary=CUSTOM" -d $'--CUSTOM\r\nContent-Type: multipart/octet-stream\r\nContent-Disposition: file; name="usuario"\r\n\r\nHello World!\n--CUSTOM--' "http://localhost:37231/pisp3/2022-2-pis-pf-breno/api/login"

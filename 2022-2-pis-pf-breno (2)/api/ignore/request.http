@@ -1,0 +1,30 @@
+POST http://localhost:37231/pisp3/2022-2-pis-pf-breno/api/login
+Accept: application/json
+Content-Type: application/json
+
+{
+    "login": "ana1",
+    "senha": "123"
+}
+
+####
+GET http://localhost:37231/pisp3/2022-2-pis-pf-breno/api/try2
+
+{
+    "name": "vscode-restclient",
+    "owner": "Huachao"
+}
+
+#####
+
+
+# ####
+# DELETE http://localhost:37231/pisp3/2022-2-pis-pf-breno/api/login
+# Accept: application/json
+# Content-Type: application/json
+# Authorization: Bearer MyAuthToken
+
+# {
+#     "name": "vscode-restclient",
+#     "owner": "Huachao"
+# }
